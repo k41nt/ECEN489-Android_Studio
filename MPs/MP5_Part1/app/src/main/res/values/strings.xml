@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mario Theme Songs</string>
+    <string name="song1">Mario Star Mode Theme Song</string>
+    <string name="song2">Mario Underwater Theme Song</string>
+    <string name="song3">Mario World Theme Song</string>
+    <string name="stop">Stop</string>
+    <string name="play">Play</string>
+</resources>

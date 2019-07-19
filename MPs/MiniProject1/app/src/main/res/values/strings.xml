@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Music Quiz App by Khanh Nguyen</string>
+    <string name="title_activity_secondary">activity_secondary</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_test">test</string>
+</resources>

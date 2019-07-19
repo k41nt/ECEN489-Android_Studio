@@ -1,0 +1,304 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0082)https://cesg.tamu.edu/courses/ecen-489-mob-apps-android-course-materials/lectures/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US" class="gr__cesg_tamu_edu"><head profile="http://gmpg.org/xfn/11"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+			<meta name="robots" content="noodp,noydir">
+		<title>Lectures</title>
+<link rel="dns-prefetch" href="https://s.w.org/">
+<link rel="alternate" type="application/rss+xml" title="Computer Engineering &amp; Systems Group - Texas A&amp;M University » Feed" href="https://cesg.tamu.edu/feed/">
+<link rel="alternate" type="application/rss+xml" title="Computer Engineering &amp; Systems Group - Texas A&amp;M University » Comments Feed" href="https://cesg.tamu.edu/comments/feed/">
+<link rel="alternate" type="text/calendar" title="Computer Engineering &amp; Systems Group - Texas A&amp;M University » iCal Feed" href="https://cesg.tamu.edu/seminars/?ical=1">
+<link rel="canonical" href="https://cesg.tamu.edu/courses/ecen-489-mob-apps-android-course-materials/lectures/">
+		<script type="text/javascript" async="" src="./Lectures_files/analytics.js.download"></script><script type="text/javascript" async="" src="./Lectures_files/ga.js.download"></script><script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/cesg.tamu.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.2"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="./Lectures_files/wp-emoji-release.min.js.download" type="text/javascript" defer=""></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" type="text/css" href="./Lectures_files/skin.css" media="screen"><link rel="stylesheet" id="tribe-tooltip-css" href="./Lectures_files/tooltip.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="cmb-template-css" href="./Lectures_files/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="social-widget-css" href="./Lectures_files/social_widget.css" type="text/css" media="all">
+<script type="text/javascript" src="./Lectures_files/jquery.js.download"></script>
+<script type="text/javascript" src="./Lectures_files/jquery-migrate.min.js.download"></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://cesg.tamu.edu/wp-content/themes/genesis/lib/js/html5shiv.min.js?ver=3.7.3'></script>
+<![endif]-->
+<script type="text/javascript" src="./Lectures_files/jquery.mousewheel.min.js.download"></script>
+<script type="text/javascript" src="./Lectures_files/slidedeck.jquery.js.download"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://cesg.tamu.edu/xmlrpc.php?rsd">
+<link rel="alternate" type="application/json+oembed" href="https://cesg.tamu.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcesg.tamu.edu%2Fcourses%2Fecen-489-mob-apps-android-course-materials%2Flectures%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://cesg.tamu.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcesg.tamu.edu%2Fcourses%2Fecen-489-mob-apps-android-course-materials%2Flectures%2F&amp;format=xml">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="./Lectures_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119021756-51');
+</script>
+
+<meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="https://cesg.tamu.edu"><link rel="https://theeventscalendar.com/" href="https://cesg.tamu.edu/wp-json/tribe/events/v1/"><link rel="icon" href="https://cesg.tamu.edu/wp-content/themes/cesg/images/favicon.ico">
+<meta name="google-site-verification" content="3QM3FcTYjikXlOn6PZ0a2zlojAJ7OyNTxwyvNs78jbM"></head>
+<body class="course-template-default single single-course postid-4843 tribe-js sidebar-content" data-gr-c-s-loaded="true">
+
+<div id="wrap"><div id="header"><div class="wrap"><div id="title-area"><p id="title"><a href="https://cesg.tamu.edu/">Computer Engineering &amp; Systems Group - Texas A&amp;M University</a></p></div><div class="widget-area header-widget-area"><div id="social-widget-2" class="widget Social_Widget"><div class="widget-wrap"><h4 class="widget-title widgettitle">Follow Us!</h4>
+<div class="socialmedia-buttons smw_left"><a href="http://www.linkedin.com/groups?home=&amp;gid=4302873&amp;trk=anet_ug_hm" rel="nofollow" target="_blank"><img width="32" height="32" src="./Lectures_files/linkedin.png" alt=" LinkedIn" title=" LinkedIn" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"></a><a href="http://www.youtube.com/user/CESGTAMU" rel="nofollow" target="_blank"><img width="32" height="32" src="./Lectures_files/youtube.png" alt=" YouTube" title=" YouTube" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"></a></div></div></div>
+<div id="search-2" class="widget widget_search"><div class="widget-wrap"><div id="cse" style="width: 100%;">Loading</div>
+<script src="./Lectures_files/jsapi" type="text/javascript"></script>
+<script type="text/javascript"> 
+  function parseQueryFromUrl () {
+    var queryParamName = "s";
+    var search = window.location.search.substr(1);
+    var parts = search.split('&');
+    for (var i = 0; i < parts.length; i++) {
+      var keyvaluepair = parts[i].split('=');
+      if (decodeURIComponent(keyvaluepair[0]) == queryParamName) {
+        return decodeURIComponent(keyvaluepair[1].replace(/\+/g, ' '));
+      }
+    }
+    return '';
+  }
+
+  google.load('search', '1', {language : 'en', style : google.loader.themes.V2_DEFAULT});
+  google.setOnLoadCallback(function() {
+    var customSearchOptions = {};  var customSearchControl = new google.search.CustomSearchControl(
+      '014874989873475943075:cmtjimkc6c0', customSearchOptions);
+    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+    customSearchControl.draw('cse');
+    customSearchControl.setLinkTarget(google.search.Search.LINK_TARGET_SELF);
+    var queryFromUrl = parseQueryFromUrl();
+    if (queryFromUrl) {
+      customSearchControl.execute(queryFromUrl);
+    }
+  }, true);
+</script>
+
+<style type="text/css">
+.cse .gsc-control-cse, .gsc-control-cse
+{
+   padding:0px;
+}
+.gsc-control-cse .gsc-table-result {
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+</style></div></div>
+<div id="text-5" class="widget widget_text"><div class="widget-wrap">			<div class="textwidget"><!--
+
+<form method="get" action="http://www.google.com/search">
+<input type="text"   name="q" size="25"
+ maxlength="255" value="" />
+<input type="submit" value="Google Search" />
+<input type="radio"  name="sitesearch" value="" />
+ The Web
+<input type="radio"  name="sitesearch"
+ value="cesg.tamu.edu" checked />Search CESG<br />
+</form>
+
+
+<div id="searchmenu">
+			<form action="/search/" id="searchbox_014874989873475943075:cmtjimkc6c0">
+				<fieldset>
+					<input type="hidden" name="cx" value="014874989873475943075:cmtjimkc6c0">
+					<input type="hidden" name="cof" value="FORID:9">
+					<input class="text" type="text" name="q" style="border: 1px solid rgb(126, 157, 185); padding: 2px; background-image: url(http://www.google.com/cse/intl/en/images/google_custom_search_watermark.gif); background-color: rgb(255, 255, 255); background-position: 0% 50%; background-repeat: no-repeat no-repeat; ">
+					<input class="button" type="submit" name="sa" value="Search">
+				</fieldset>
+			<input name="siteurl" type="hidden" value="cesg.tamu.edu/"><input name="ref" type="hidden" value=""><input name="ss" type="hidden" value=""></form>
+			<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_014874989873475943075:cmtjimkc6c0&amp;lang=en"></script>
+		</div>
+
+
+--></div>
+		</div></div>
+</div></div></div><div id="nav"><div class="wrap"><ul id="menu-primary" class="menu menu-primary"><li class="menu-item page_item"><a href="https://cesg.tamu.edu/courses/ecen-489-mob-apps-android-course-materials/">Home</a></li><li class="page_item page-item-4843 current_page_item"><a href="https://cesg.tamu.edu/courses/ecen-489-mob-apps-android-course-materials/lectures/" aria-current="page">Lectures</a></li>
+<li class="page_item page-item-4950"><a href="https://cesg.tamu.edu/courses/ecen-489-mob-apps-android-course-materials/quizzes/">Quizzes</a></li>
+<li class="page_item page-item-4851"><a href="https://cesg.tamu.edu/courses/ecen-489-mob-apps-android-course-materials/homework/">Homework &amp; Projects</a></li>
+<li class="page_item page-item-4850"><a href="https://cesg.tamu.edu/courses/ecen-489-mob-apps-android-course-materials/resources/">Resources</a></li>
+</ul></div></div><div id="inner"><div class="wrap"><div id="content-sidebar-wrap"><div id="content" class="hfeed"><div class="post-4843 course type-course status-publish post-password-protected hentry entry"><h1 class="entry-title">Protected: Lectures</h1>
+<div class="entry-content"><p><strong>Part I. Android Development</strong></p>
+<ul>
+<li>Topic 1: Introduction to Android: <a href="https://www.dropbox.com/s/nqds3yteinf3ixw/01-introduction.pdf?dl=0"><img src="./Lectures_files/pdf.gif" alt="" width="15" height="16"></a></li>
+</ul>
+<ul>
+<li>Topic 2: Introduction to Java: <a href="https://www.dropbox.com/s/ud1ci9n4gu79t3z/02-java.pdf?dl=0"><img src="./Lectures_files/pdf.gif" alt="" width="15" height="16"></a></li>
+</ul>
+<ul>
+<li>Topic 3: Socket Programming: <a href="https://www.dropbox.com/s/gsyl2xoo07e6s2y/03-sockets.pdf?dl=0"><img src="./Lectures_files/pdf.gif" alt="" width="15" height="16"></a>. Some sample code <a href="https://www.dropbox.com/s/4hdx1klvbzp48ww/Client-Server.pdf?dl=0"><img src="./Lectures_files/pdf.gif" alt="" width="15" height="16"> </a></li>
+</ul>
+<ul>
+<li>Topic 4: First App: <a href="https://www.dropbox.com/s/9o776bgn0p2tcnv/04-first-app.pdf?dl=0"><img src="./Lectures_files/pdf.gif" alt="" width="15" height="16"></a></li>
+</ul>
+<ul>
+<li>Topic 5: GUI Layouts: <a href="https://www.dropbox.com/s/7048pnk7op06qa1/05-gui-layouts.pdf?dl=0"><img src="./Lectures_files/pdf.gif" alt="" width="15" height="16"></a><br>
+LinearLayout and a nested GridLayout <a href="https://github.com/ecen489/Topic-5-GUI-Layout"><img src="./Lectures_files/github.png" alt="" width="18" height="18"></a></li>
+</ul>
+<ul>
+<li>Topic 6: GUI Widgets: <a href="https://www.dropbox.com/s/h0etmuoxzk7rs01/06-gui-widgets.pdf?dl=0"><img src="./Lectures_files/pdf.gif" alt="" width="15" height="16"></a><br>
+Radio buttons and ImageView <a href="https://github.com/ecen489/Topic-6-GUI-Widgets"><img src="./Lectures_files/github.png" alt="" width="18" height="18"></a></li>
+</ul>
+<ul>
+<li>Topic 7: GUI Lists: <a href="https://www.dropbox.com/s/xmjens59iny0wh1/07-lists.pdf?dl=0"><img src="./Lectures_files/pdf.gif" alt="" width="15" height="16"></a><br>
+Using string array from xml <a href="https://github.com/ecen489/Topic-7-Lists-1"><img src="./Lectures_files/github.png" alt="" width="18" height="18"></a><br>
+Using string array from java <a href="https://github.com/ecen489/Topic-7-Lists-2"><img src="./Lectures_files/github.png" alt="" width="18" height="18"></a><br>
+Using OnItemClickListener to allow interactivity <a href="https://github.com/ecen489/Topic-7-Lists-3"><img src="./Lectures_files/github.png" alt="" width="18" height="18"></a>
+</li>
+</ul>
+<ul>
+<li>Topic 8: Files and Storage: <a href="https://www.dropbox.com/s/vo3oixirq8clxzq/08-files-storage.pdf?dl=0"><img src="./Lectures_files/pdf.gif" alt="" width="15" height="16"></a><br>
+Pulling a string array from a file <a href="https://github.com/ecen489/Topic-8-File-Handling"><img src="./Lectures_files/github.png" alt="" width="18" height="18"></a>
+</li>
+</ul>
+<ul>
+<li>Topic 9: Activities and Intents: <a href="https://www.dropbox.com/s/sy4fe5kr2fp2nj5/09-intents.pdf?dl=0"><img src="./Lectures_files/pdf.gif" alt="" width="15" height="16"></a><br>
+Opening a new activity and passing information to it <a href="https://github.com/ecen489/Topic-9-Intents-1"><img src="./Lectures_files/github.png" alt="" width="18" height="18"></a><br>
+Returning back from a child activity <a href="https://github.com/ecen489/Topic-9-Intents-2"><img src="./Lectures_files/github.png" alt="" width="18" height="18"></a>
+</li>
+</ul>
+<ul>
+<li>Topic 10: Media Player: <a href="https://www.dropbox.com/s/24oywpz5oqsf5fm/10-mediaplayer.pdf?dl=0"><img src="./Lectures_files/pdf.gif" alt="" width="15" height="16"></a><br>
+Using a Media Player <a href="https://github.com/ecen489/Topic-10-Media-Player"><img src="./Lectures_files/github.png" alt="" width="18" height="18"></a>
+</li>
+</ul>
+<ul>
+<li>Topic 11: Activity Lifecycle: <a href="https://www.dropbox.com/s/9y7jg9tqkc1sak1/11-activity-lifecycle.pdf?dl=0"><img src="./Lectures_files/pdf.gif" alt="" width="15" height="16"></a>
+</li>
+</ul>
+<ul>
+<li>Topic 12: Activity State and Preferences: <a href="https://www.dropbox.com/s/wefbd50q2v8j90x/12-state-preferences.pdf?dl=0"><img src="./Lectures_files/pdf.gif" alt="" width="15" height="16"></a><br>
+Saving State <a href="https://github.com/ecen489/Topic-12-Saving-State"><img src="./Lectures_files/github.png" alt="" width="18" height="18"></a>
+</li>
+</ul>
+<ul>
+<li>Topic 13: Dynamic UI: <a href="https://www.dropbox.com/s/qmaqgilcntpikwn/13-dynamic-UI.pdf?dl=0"><img src="./Lectures_files/pdf.gif" alt="" width="15" height="16"></a><br>
+Dynamic UI:  Adding Widgets directly from Java <a href="https://github.com/ecen489/Topic-13_Dynamic_UI"><img src="./Lectures_files/github.png" alt="" width="18" height="18"></a><br>
+Dynamic UI:  Using an Inflater on an xml layout <a href="https://github.com/ecen489/Topic-13-Dynamic-UI-Inflater"><img src="./Lectures_files/github.png" alt="" width="18" height="18"></a>
+</li>
+</ul>
+<ul>
+<li>Topic 14: Fragments: <a href="https://www.dropbox.com/s/5zc05dtliz51bf6/14-fragments.pdf?dl=0"><img src="./Lectures_files/pdf.gif" alt="" width="15" height="16"></a><br>
+Fragments: Basic Fragment Example. <a href="https://github.com/ecen489/Topic-14-Fragment-Example-1"><img src="./Lectures_files/github.png" alt="" width="18" height="18"></a><br>
+Fragments: Two Communicating Fragments with different positioning for Portrait and Landscape Layout:  <a href="https://github.com/ecen489/Topic-14-Fragment-Example-2"><img src="./Lectures_files/github.png" alt="" width="18" height="18"></a>
+</li>
+</ul>
+<ul>
+<li>Topic 15: Libraries: <a href="https://www.dropbox.com/s/szga07bfktl2vnx/15-libraries.pdf?dl=0"><img src="./Lectures_files/pdf.gif" alt="" width="15" height="16"></a><br>
+Example using Picasso:  <a href="https://github.com/ecen489/Topic-15-Libraries-Picasso"><img src="./Lectures_files/github.png" alt="" width="18" height="18"></a>
+</li>
+</ul>
+<ul>
+<li>Topic 16: RESTful APIs: <a href="https://www.dropbox.com/s/8hshi43y9f1hdvv/16-RESTAPI.pdf?dl=0"><img src="./Lectures_files/pdf.gif" alt="" width="15" height="16"></a><br>
+Example using Picasso:  <a href="https://github.com/ecen489/T16_RESTful_API"><img src="./Lectures_files/github.png" alt="" width="18" height="18"></a>
+</li>
+</ul>
+<ul>
+<li>Topic 17: Local Databases and SQL: <a href="https://www.dropbox.com/s/qf203jx1oh1dqfn/17-databases-sql.pdf?dl=0"><img src="./Lectures_files/pdf.gif" alt="" width="15" height="16"></a><br>
+DB Browser:  <a href="https://sqlitebrowser.org/">here</a><br>
+Sample Databases: <a href="https://www.dropbox.com/s/e4w3gthhqqrnz6w/world.sql?dl=0">world</a>, <a href="https://www.dropbox.com/s/wsphhez9wbdte80/imdb.sql?dl=0">imdb</a>, <a href="https://www.dropbox.com/s/o477hb894eexphd/simpsons.sql?dl=0">simpsons</a>
+</li>
+</ul>
+<ul>
+<li>Topic 18: Camera: <a href="https://www.dropbox.com/s/rv54ta6yyq47wa2/18-camera.pdf?dl=0"><img src="./Lectures_files/pdf.gif" alt="" width="15" height="16"></a>
+</li>
+</ul>
+<ul>
+<li>Topic 19: Firebase I/O: <a href="https://www.dropbox.com/s/vx31zpoidet2ppc/19-remote-databases.pdf?dl=0"><img src="./Lectures_files/pdf.gif" alt="" width="15" height="16"></a><br>
+Video on getting started with Firebase <a href="https://www.youtube.com/watch?v=EM2x33g4syY">here</a> (Also see slides for gradle commands).<br>
+Video on types of queries: <a href="https://www.youtube.com/watch?v=WeoryL3XyA4">here</a><br>
+Sample JSON to upload into Firebase: <a href="https://www.dropbox.com/s/1jeudte8d6k3wkh/simpsons.json?dl=0">simpsons</a><br>
+Simple example of Firebase:  <a href="https://github.com/ecen489/Topic-19-Firebase"><img src="./Lectures_files/github.png" alt="" width="18" height="18"></a><br>
+Objects on Firebase:  <a href="https://github.com/ecen489/Topic-19-More-Firebase"><img src="./Lectures_files/github.png" alt="" width="18" height="18"></a><br>
+Authentication and Queries On Firebase:  <a href="https://github.com/ecen489/Topic-18-Firebase-Authentication-And-Queries"><img src="./Lectures_files/github.png" alt="" width="18" height="18"></a>
+</li>
+</ul>
+<ul>
+<li>Topic 20: ML Kit: <a href="https://www.dropbox.com/s/1i9r27sg08jtrbz/20-ml-kit.pdf?dl=0"><img src="./Lectures_files/pdf.gif" alt="" width="15" height="16"></a><br>
+ML Kit code lab: <a href="https://codelabs.developers.google.com/codelabs/mlkit-android/#0">here</a>
+</li>
+</ul>
+<ul>
+<li>Topic 21: Neural Networks: <a href="https://www.dropbox.com/s/v0x3eiuura8ij64/21-neural-networks.pdf?dl=0"><img src="./Lectures_files/pdf.gif" alt="" width="15" height="16"></a><br>
+Python Virtual Environment Primer: <a href="https://realpython.com/python-virtual-environments-a-primer/">here</a><br>
+TensorFlow Code Lab Part 1: <a href="https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0">here</a><br>
+TensorFlow Code Lab Part 2: <a href="https://codelabs.developers.google.com/codelabs/tensorflow-for-poets-2-tflite/index.html#0">here</a>
+</li>
+</ul>
+<ul>
+<li>Topic 22: Google Maps and GPS: <a href="https://www.dropbox.com/s/cu21pryl2gz7fge/22-maps.pdf?dl=0"><img src="./Lectures_files/pdf.gif" alt="" width="15" height="16"></a><br>
+Simple application (Note: API Key is removed):  <a href="https://github.com/ecen489/Topic_22_Google_Maps"><img src="./Lectures_files/github.png" alt="" width="18" height="18"></a>
+</li>
+</ul>
+<ul>
+<li>Topic 23: Services and Notifications: <a href="https://www.dropbox.com/s/ntw231i4rehqe5s/23-services-notifications.pdf?dl=0"><img src="./Lectures_files/pdf.gif" alt="" width="15" height="16"></a><br>
+App with a service, intent broadcast and notification:  <a href="https://github.com/ecen489/Topic_23_Services_and_Notifications"><img src="./Lectures_files/github.png" alt="" width="18" height="18"></a>
+</li>
+</ul>
+<ul>
+<li>Topic 24: 2D Graphics and Animation: <a href="https://www.dropbox.com/s/myk8oqi90hth9ef/24-2d-graphics.pdf?dl=0"><img src="./Lectures_files/pdf.gif" alt="" width="15" height="16"></a><br>
+Creating custom views:  <a href="https://github.com/ecen489/Topic_24_Basic_Graphics"><img src="./Lectures_files/github.png" alt="" width="18" height="18"></a><br>
+Redrawing views for basic animation:  <a href="https://github.com/ecen489/Topic_24_Basic_Animation"><img src="./Lectures_files/github.png" alt="" width="18" height="18"></a><br>
+Animation using the Stanford Library and Touch:  <a href="https://github.com/ecen489/Topic_24_Animation_Using_Library"><img src="./Lectures_files/github.png" alt="" width="18" height="18"></a>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Some of these slides are based on those created by:</p>
+<ul>
+<li>Prof. Marty Stepp (Stanford)</li>
+<li>Dr. Carlos Kavka (INFN Sezione di Trieste)</li>
+<li>Kurose and Ross</li>
+<li>Multiple online tutorials.</li>
+</ul>
+<p>The instructor gratefully acknowledges their contribution.</p>
+</div></div></div><div id="sidebar" class="sidebar widget-area"><h1><a href="https://cesg.tamu.edu/courses/ecen-489-mob-apps-android-course-materials/">ECEN 489: Mobile Applications with Android: Course Materials</a></h1></div></div></div></div><div id="footer" class="footer"><div class="wrap"><div class="wrap">
+	<div class="gototop">
+		<ul class="xoxo blogroll">
+			<li><a href="http://www.ece.tamu.edu/">Electrical &amp; Computer Engineering Department Webpage</a></li>
+			<li><a href="http://itaccessibility.tamu.edu/requirements/web_accessibility_policy.php">Texas A&amp;M University Access Policy</a></li>
+			<li><a href="http://www.tamu.edu/">Texas A&amp;M University Webpage</a></li>
+		</ul>
+	</div>
+	<div class="creds">
+		<p>Computer Engineering &amp; Systems Group<br>Department of Electrical &amp; Computer Engineering<br>Texas A&amp;M University<br>333E WERC, College Station, Texas, 77843-3259<br>Phone (979) 458-5005, Fax <span id="gc-number-0" class="gc-cs-link" title="Call with Google Voice">(979) 845-2630</span></p>
+	</div>
+</div>
+<div class="gototop"><p><a href="https://cesg.tamu.edu/courses/ecen-489-mob-apps-android-course-materials/lectures/#wrap" rel="nofollow">Return to top of page</a></p></div></div></div></div>
+
+		<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+		<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29192818-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><script> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesMin":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done","today":"Today","clear":"Clear"}};var tribe_system_info = {"sysinfo_optin_nonce":"a21b9531ce","clipboard_btn_text":"Copy to clipboard","clipboard_copied_text":"System info copied","clipboard_fail_text":"Press \"Cmd + C\" to copy"};/* ]]> */ </script><script type="text/javascript" src="./Lectures_files/hoverIntent.min.js.download"></script>
+<script type="text/javascript" src="./Lectures_files/superfish.min.js.download"></script>
+<script type="text/javascript" src="./Lectures_files/superfish.args.min.js.download"></script>
+<script type="text/javascript" src="./Lectures_files/superfish.compat.min.js.download"></script>
+<script type="text/javascript" src="./Lectures_files/wp-embed.min.js.download"></script>
+
+</body></html>
